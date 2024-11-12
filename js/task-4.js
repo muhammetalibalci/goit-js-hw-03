@@ -6,19 +6,19 @@ function getShippingCost(country) {
 
     switch (country) {
         case "China":
-            message = `Shipping to China will cost ${100} credits`
+            message = `Shipping to China will cost ${chinaPrice} credits`
             break;
         
         case "Chile":
-            message = `Shipping to Chile will cost ${250} credits`
+            message = `Shipping to Chile will cost ${chilePrice} credits`
             break;
         
         case "Australia":
-            message = `Shipping to Australia will cost ${170} credits`
+            message = `Shipping to Australia will cost ${australiaPrice} credits`
             break;
         
         case "Jamaica":
-            message = `Shipping to Jamaica will cost ${120} credits`
+            message = `Shipping to Jamaica will cost ${jamaicaPrice} credits`
             break;
         
         default:
